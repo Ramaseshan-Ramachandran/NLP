@@ -66,7 +66,7 @@ const vector<probability> ngram_lm::probability_distribution(const string& searc
 void ngram_lm::build_model(){
     mt_read mt;
 //    string path = "/Users/ram/Documents/GitHub/LanguageModels/DemoCode/Corpus/txt/";
-    string path = "/Users/ram/tmp/wiki/";
+    // string path = "/Users/ram/Documents/GitHub/Corpus";
     //get ngrams and context in pair
     pair<vector<ngrams_info>, vector<ngrams_info>> info_pair;
     const string content = mt.read(path);
